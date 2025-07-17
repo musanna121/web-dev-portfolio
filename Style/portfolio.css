@@ -3,12 +3,11 @@
 }
 
 
-/* .raleway-<uniquifier> {
+.font-1 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
+
+}
 
 
 /* .inter-<uniquifier> {
@@ -25,10 +24,12 @@ header{
 
 nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 nav h3{
+    padding-left: 100px;
     color: #4E47FF;
     font-size: 34px;
     font-family: "Inter", sans-serif;
@@ -38,11 +39,14 @@ nav h3{
 }
 
 nav button{
-    padding-top: 0;
+    margin-right: 100px;
+    
 }
 
 .button-primary{
     background-color: #4E47FF;
+    border: 0;
+    border-radius: 10px;
     color: #ffffff;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
@@ -50,15 +54,152 @@ nav button{
     /* font-weight: <weight>; */
     font-style: normal; 
     font-weight: bold;   
+    padding: 12px 36px;
+}
+
+.banner-content{
+    text-align: center;
+
 }
 
 
-
 .banner-text{
+    padding-top: 70px;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     /* font-weight: <weight>; */
     font-style: normal; 
     font-weight: bold;
     font-size: 65px;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.section-1{
+    padding: 120px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.see-it h3{
+    color: #252432;
+    font-size: 42px;
+}
+
+.text-2{
+    color: #252432;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.image{
+    width: 403px;
+    height: 328px; 
+    background-image: url(/Assets/wc-mini.png);
+    border-radius: 48px;
+}
+
+/* footer style  */
+footer{
+    text-align: center;
+}
+footer h3{    
+    color: #4E47FF;
+    font-size: 100px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    margin: 0;
+
+}
+footer p{
+    color:#8987A1;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li{
+    list-style: none;
+    padding: 10px 25px;
+    color:#8987A1;
+}
+
+/* section - 2 */
+.section-2{
+    background-color: #4d47ff2d;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.join{
+    margin-top: 0;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section-2 h3{
+    color: #252432;
+    font-size: 38px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-item {
+    text-align: center;
+}
+
+.about-item p{
+    margin: 0;
+}
+
+.about-item h3{
+    color: #4E47FF;
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    margin: 0;
+}
+
+.soft-text{
+    color:#8987A1;
+}
+
+.cards{
+
+    display: flex;
+    
+    
+}
+
+.section-3 h3{
+    text-align: center;
+}
+
+.info img{
+    border-radius: 50%;
+}
+
+.info p{
+    margin:0;
+    background-color: white;
+    border: 1px solid black;
 }
