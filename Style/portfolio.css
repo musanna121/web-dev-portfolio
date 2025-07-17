@@ -1,0 +1,8 @@
+.all{
+    background-color: #b993f3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
