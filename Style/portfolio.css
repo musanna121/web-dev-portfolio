@@ -40,7 +40,7 @@
 
 header{
     height: 698px;
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url('/Assets/Hero-bg.png');
     
 }
 
@@ -125,14 +125,16 @@ main{
 .image{
     width: 403px;
     height: 328px; 
-    background-image: url(/Assets/wc-mini.png);
+    background-image: url('/Assets/wc-mini.png');
     border-radius: 48px;
+    
 }
 
 /* footer style  */
 footer{
     text-align: center;
     background-color: white;
+    padding: 104px 455px;
 }
 footer h3{    
     color: #4E47FF;
@@ -285,6 +287,9 @@ footer ul li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
 }
 
 .section-5 h3{
@@ -294,7 +299,6 @@ footer ul li{
 }
 .section-5 button{
     padding: 19px 201px;
-    margin-left: 80px;
     margin-top: 30px;
 }
 
@@ -303,13 +307,15 @@ footer ul li{
 
 }
 input{
-    padding: 20px 379px 20px 32px;
+    padding: 20px 220px 20px 32px;
     font-size: 20px;
+    margin: 15px 0px;
     border-radius: 5px;
     border: 1px solid #D6DDED;
 }
-.input{
-    margin: 0;
-    padding-left: 200px;
+
+.label{
+    font-weight: 600;
+    /* color: red; */
 }
 
