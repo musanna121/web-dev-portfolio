@@ -40,7 +40,7 @@
 
 header{
     height: 698px;
-    background-image: url('/Assets/Hero-bg.png');
+    background-image: url('../Assets/Hero-bg.png');
     
 }
 
@@ -125,7 +125,7 @@ main{
 .image{
     width: 403px;
     height: 328px; 
-    background-image: url('/Assets/wc-mini.png');
+    background-image: url('../Assets/wc-mini.png');
     border-radius: 48px;
     
 }
