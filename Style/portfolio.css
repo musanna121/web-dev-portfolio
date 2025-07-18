@@ -2,7 +2,14 @@
     /* background-color: #F2EDED; */
     background-color: #F5F8FF;
 }
+a{
+    text-decoration: none;
+}
 
+
+.white{
+    color: white;
+}
 .image-fixed{
     object-fit: contain;
 }
@@ -77,6 +84,13 @@ nav button{
     font-style: normal; 
     font-weight: bold;   
     padding: 12px 36px;
+}
+
+.button-primary:hover{
+    background-color: yellow;
+    color: blue;
+    cursor: pointer;
+    
 }
 
 .banner-content{
@@ -302,8 +316,8 @@ footer ul li{
 
 }
 .section-5 button{
-    padding: 19px 201px;
-    margin-top: 30px;
+    padding: 19px 204px;
+    margin-top: 10px;
 }
 
 .section-5 label{
@@ -323,3 +337,7 @@ input{
     /* color: red; */
 }
 
+#textbox{
+    padding:10px 240px 135px 10px;
+    
+}
